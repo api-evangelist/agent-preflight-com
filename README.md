@@ -1,4 +1,4 @@
-# agent-preflight-com
+# Agent Preflight
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agent-preflight-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agent-preflight.com/
+Agent Preflight provides a pre‑execution decision service for autonomous agents, allowing them to check planned tool calls before spending resources. It returns one of allow, block, reuse, defer, or advise, and never executes the destination tool itself. The platform aims to improve safety and cost‑efficiency for AI‑driven workflows, offering clear guidance on whether a tool call should proceed.
+
+**Areas:** Agent · Preflight · API · Tool · Decision
+
+## Agent Preflight on APIs.io
+
+Everything profiled for Agent Preflight is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agent-preflight-com/](https://apis.io/providers/agent-preflight-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Agent Preflight API](https://apis.io/apis/agent-preflight-com/agent-preflight-api/) — Preflight decision service API providing allow/block/etc responses.
+- [Agent Preflight Api API](https://apis.io/apis/agent-preflight-com/agent-preflight-api-api/) — V0.3: V0.1 validates a proposed HTTP body against JSON Schema. POST /v0.2/preflight/tool-call returns allow|block|reuse|defer|advise for a budgeted tool…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Agent Preflight API Rules](https://apis.io/rules/agent-preflight-com/agent-preflight-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agent Preflight Com Domain Security](https://apis.io/security/agent-preflight-com/agent-preflight-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agent-preflight.com/)
+- [Documentation](https://agent-preflight.com/docs)
+- [Getting started](https://agent-preflight.com/docs)
+- [API reference](https://api.agent-preflight.com/openapi.json)
+
+## API Evangelist rating
+
+**Kin Score 28.3** — thin · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 36.3 |
+| Contract governance | 65.5 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 0.0 |
+
+**Agent readiness 21.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agent-preflight-com/](https://apis.io/providers/agent-preflight-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Agent Preflight: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agent-preflight-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).

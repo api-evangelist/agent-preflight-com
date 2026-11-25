@@ -66,7 +66,7 @@
 
 Agent Preflight provides a pre‑execution decision service for autonomous agents, allowing them to check planned tool calls before spending resources. It returns one of allow, block, reuse, defer, or advise, and never executes the destination tool itself. The platform aims to improve safety and cost‑efficiency for AI‑driven workflows, offering clear guidance on whether a tool call should proceed.
 
-**Areas:** Agent · Preflight · API · Tool · Decision
+**Areas:** Agents · Preflight · Tool · Decisions
 
 ## Agent Preflight on APIs.io
 
@@ -91,7 +91,7 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agent Preflight Com Domain Security](https://apis.io/security/agent-preflight-com/agent-preflight-com-domain-security/)
+- [Agent Preflight Domain Security](https://apis.io/security/agent-preflight-com/agent-preflight-com-domain-security/)
 
 ## Where to find this API
 
@@ -104,25 +104,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 28.3** — thin · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 21.9** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 62.5 |
+| Discoverability | 71.4 |
 | Contract quality | 36.3 |
-| Contract governance | 65.5 |
+| Contract governance | 18.2 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 28.6 |
 | Access clarity | 0.0 |
 
-**Agent readiness 21.7** — agent-aware
+**Agent readiness 19.9** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | — |
 | Idempotency | — |
 | Error Semantics | derived (partial credit) |
@@ -131,7 +131,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -140,8 +140,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
-**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 4.9** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agent-preflight-com/](https://apis.io/providers/agent-preflight-com/).
 
